@@ -26,7 +26,7 @@ dds <- DESeqDataSetFromMatrix(
 
 vsd <- vst(dds, blind = TRUE)
 vst_mat <- assay(vsd)
-fwrite(as.data.frame(vst_mat), "Data/VST.txt", sep = ',',
+fwrite(as.data.frame(vst_mat), "Data/VST.txt.gz", sep = ',',
        row.names = TRUE, col.names = TRUE)
 
 count_to_vst <- function(exprSet, colData = NULL, design = NULL,
@@ -66,4 +66,4 @@ rownames(exprSet) <- exprSet$Ensembl_ID
 exprSet$Ensembl_ID <- NULL
 rownames(exprSet) <- rownames(exprSet) %>% str_remove("\\.\\d*$")
 
-count_to_vst(exprSet, dir.save = "Data/TCGA-LAML-VST.txt")
+count_to_vst(exprSet, dir.save = "Data/TCGA-LAML-VST.txt.gz")
