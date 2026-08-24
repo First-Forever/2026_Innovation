@@ -11,7 +11,7 @@
 
 [中文](#中文说明) | [English](#english)
 
-![Model benchmark](model_scores_bar.png)
+![Model benchmark](Figures/Test_Accuracy.png)
 
 ---
 
@@ -69,7 +69,7 @@
 ├── ML_final.ipynb          # 完整训练、验证、绘图流程
 ├── ML_final.html           # Notebook 的静态导出版本
 ├── Models/                 # 8 个已训练的 scikit-learn Pipeline
-└── model_scores_bar.png    # 模型 balanced accuracy 对比图
+└── Figures/                # 模型结果图
 ```
 
 `Data/`、`Validation/`、`Figures/`、`TPM_log.txt.gz`、`meta.csv` 和 `scores.csv` 等运行时输入/输出未包含在当前目录快照中，需要按下述约定自行准备。
@@ -217,7 +217,7 @@ The included benchmark figure reports mean balanced accuracy of approximately 0.
 ├── ML_final.ipynb          # End-to-end training, validation, and plotting
 ├── ML_final.html           # Static export of the notebook
 ├── Models/                 # Eight trained scikit-learn pipelines
-└── model_scores_bar.png    # Balanced-accuracy benchmark
+└── Figures/                # Results figures of the trained models
 ```
 
 Runtime inputs and outputs such as `Data/`, `Validation/`, `Figures/`, `TPM_log.txt.gz`, `meta.csv`, and `scores.csv` are not included in the current directory snapshot and must be prepared separately.
