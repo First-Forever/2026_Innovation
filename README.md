@@ -167,7 +167,7 @@ python ML_valid.py
 
 ### 许可证
 
-当前目录未提供开源许可证。在许可证补充前，默认保留所有权利；代码、模型或衍生结果的再分发与商业使用请先联系项目团队。
+本项目采用 [MIT 许可证](LICENSE)，详见许可证全文。TCGA、GTEx、GEO 等外部数据集及第三方依赖仍须遵守各自的许可和使用条款。
 
 ---
 
@@ -287,4 +287,4 @@ If this project contributes to your research, please acknowledge “Pan-Cancer I
 
 ### License
 
-No open-source license is currently included. All rights are reserved until a license is added; contact the project team before redistributing or commercially using the code, models, or derivative results.
+This project is licensed under the [MIT License](LICENSE). See the license file for the full terms. External datasets, including TCGA, GTEx, and GEO, and third-party dependencies remain subject to their respective licenses and terms of use.
